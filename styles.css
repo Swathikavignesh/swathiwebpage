@@ -1,0 +1,235 @@
+/*@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);*/
+a, h1 {
+    color: red;
+    font-weight: bold;
+  }
+  h1, h2, h3 {
+    color: red;
+}
+.social-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    align-items: center; /* Align them properly */
+    position: fixed;
+    top: 10px; /* Adjust distance from the top */
+    right: 10px; /* Align to the right corner */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+
+  .red-link {
+    color: red; /* Makes the link red */
+    text-decoration: none; /* Removes underline (optional) */
+}
+
+.red-link:hover {
+    color: darkred; /* Changes color on hover */
+    text-decoration: underline; /* Underlines on hover */
+}
+.red-link.active {
+    color: blue;  /* Change active link color */
+    font-weight: bold; /* Make it bold */
+    text-decoration: underline; /* Add underline */
+}
+.tweet-text {
+    color: black !important; 
+}
+body {
+	font-family: 'Inter', sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+}
+body.works_on_smartphone{
+	font-family: 'Inter', sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+}
+h1, h2, h3, h4, h5, h6, header {
+	font-family: 'Yeseva One', sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Styling the header */
+th {
+    background-color: lightgrey;
+    font-size: 24px;
+}
+
+/* Flexbox for article and aside */
+.content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 70%;  /* Takes 70% of the row */
+    background-color: #f9f9f9;
+    padding: 15px;
+    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 300px; /* Restricting max height */
+}
+
+aside {
+    width: 30%;  /* Takes 30% of the row */
+    background-color: #e6e6e6;
+    padding: 15px;
+    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 300px; /* Restricting max height */
+}
+/* Add spacing between form fields */
+aside .form-group {
+    margin-bottom: 15px; /* Adds space between form elements */
+    display: flex;
+    flex-direction: column; /* Ensures label and input are stacked */
+}
+
+/* Footer Styling */
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Removing default list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+}
+
+body {
+    background-color: #f0f0f0;  /* Light gray background */
+    font-family: 'Josefin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.mission-statement .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+
+.values .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+.future .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+.skills .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+.volunteer .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+
+.heading .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+.link .container {
+    max-width: 800px; /* Adjust to control line width */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding: 20px; /* Adds spacing for better readability */
+}
+
+
+    body {
+    border-left: 15px solid lightcoral; /* Creates a solid red border on the left */
+    /* border-right: 5px solid red; */ /* Use this instead for a right-side border */
+    border-right: 15px solid lightcoral;
+    min-height: 100vh; /* Ensures the border spans the full height of the page */
+    margin: 0;
+    }
+
+    
+    
+    /* Remove border only on the main page 
+    body.works_on_smartphone {
+        border: none;
+    }
+
+    */
+
+    body.details {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 50px;
+    }
+    
+    details .h2 {
+        color: #333;
+    }
+    
+    details .table {
+        margin: auto;
+        width: 20%;
+        background: white;
+        border-collapse: collapse;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    details .td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 60%;
+        padding: 4px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    details.button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    

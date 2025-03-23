@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details Form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="details">
+    <main>
+        <section class="details">
+        <div class="container">
+    <h2>User Details Form</h2>
+    <form action="submit_form.php" method="post">
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email ID:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email id"required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone Number" required></td>
+            </tr>
+            <tr>
+                <td>Are you a recruiter?</td>
+                <td>
+                    <input type="radio" id="recruiter_yes" name="recruiter" value="Yes" required>
+                    <label for="recruiter_yes">Yes</label>
+                    <input type="radio" id="recruiter_no" name="recruiter" value="No">
+                    <label for="recruiter_no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="company">Company Name:</label></td>
+                <td><input type="text" id="company" name="company" placeholder="Enter the company name" required></td>
+            </tr>
+            <tr>
+                <td>Would you like to consider me for the role?</td>
+                <td>
+                    <input type="radio" id="consider_yes" name="consider" value="Yes" required>
+                    <label for="consider_yes">Yes</label>
+                    <input type="radio" id="consider_no" name="consider" value="No">
+                    <label for="consider_no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit" onclick="test()">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+    </section>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
